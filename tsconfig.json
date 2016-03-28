@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"removeComments": false,
+		"noImplicitAny": false
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"files": [
+		"src/bootstrap.ts",
+		"node_modules/angular2/typings/browser.d.ts",
+		"node_modules/zone.js/dist/zone.js.d.ts"
+	],
+	"compileOnSave": false,
+	"buildOnSave": false
+}
